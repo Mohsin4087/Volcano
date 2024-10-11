@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.flex-container-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.flex-item-menu {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  
+}
+
+.flex-item-logo {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+
+.flex-item-search {
+  display: flex;
+  height: 20px;
+  width: 300px;
+}
+
+.flex-item-login {
+  display: flex;
+}
+
+.flex-container-header .flex-item-search {
+  align-self: center;
+}
+
+.flex-container-header .flex-item-login {
+  align-self: center;
+  padding-right: 50px;
+}
+
+/* Title */
+.flex-container-title {
+  display: flex;
+  height: 100px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.flex-item-title {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.flex-item-lang {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  
+}
+
+.flex-container-title .flex-item-title {
+  align-items: center;
+  padding-left: 100px;
+}
+
+.flex-container-title .flex-item-lang {
+  padding-right: 50px;
+  align-items: center;
+}
+
+/* subheading */
+.flex-container-subheading{
+  display: flex;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+}
+
+.set1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.set2 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+}
+
+.flex-item {
+  margin: 0 10px;
+}
+
+/* text colours and styles */
+.flex-item-txt2,
+.flex-item-txt3,
+.flex-item-txt5,
+.flex-item-txt6,
+.flex-item-txt7 {
+  color: blue;
+}
+
+.flex-item-txt5 p
+.flex-item-txt6 p
+.flex-item-txt7 p {
+  text-decoration: underline;
+}
+
+.flex-item-txt7 {
+  padding-right: 50px;
+}
+
+/* Main body */
+.flex-container-body {
+  display: flex;
+  height: 1000px;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.flex-item-body {
+  margin-right:10px;
+  margin-left: 10px;
+  justify-content: right;
+}
+
+.flex-item-img {
+align-items: center;
+border-color: lightgrey;
+}
+
+.flex-item-caption {
+  font-size: small;
+  border-color: lightgray;
+  background-color: antiquewhite;
+}
